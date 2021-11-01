@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+
+  height: 200px;
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: gray;
+}
+
+.item img {
+  height: 200px;
+  width: 200px;
+  margin: 0%;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heading {
+  font-weight: bold;
+  color: rgb(121, 123, 180);
+}

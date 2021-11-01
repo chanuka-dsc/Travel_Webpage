@@ -1,0 +1,39 @@
+.container {
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 50px;
+}
+
+.container h2 {
+  padding: 0;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name-mail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.num input {
+  width: 97%;
+  margin-right: 20px;
+}
+
+.message input {
+  height: 80px;
+  width: 97%;
+}
+
+.button {
+  background-color: rgb(139, 141, 214);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 175px;
+  height: 40px;
+  align-self: flex-end;
+}

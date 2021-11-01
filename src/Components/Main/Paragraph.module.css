@@ -1,0 +1,19 @@
+.paragraph-container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 60px;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.paragraph-container p {
+  text-align: left;
+  color: gray;
+}
+
+.paragraph-container h2 {
+  color: rgb(121, 123, 180);
+  padding-left: 0%;
+  padding-bottom: 0%;
+}

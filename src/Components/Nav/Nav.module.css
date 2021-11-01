@@ -1,0 +1,17 @@
+.nav {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+  margin-top: 17px;
+  padding-bottom: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+}

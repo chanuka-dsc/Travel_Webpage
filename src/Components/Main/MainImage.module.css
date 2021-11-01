@@ -1,0 +1,36 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  background-image: url("../../Resources/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.long-para {
+  /* background-color: rgb(121, 175, 175); */
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.short-para {
+  /* background-color: rgb(121, 175, 175); */
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(121, 123, 180);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+  margin-top: 280px;
+  margin-left: 40px;
+  width: 600px;
+}

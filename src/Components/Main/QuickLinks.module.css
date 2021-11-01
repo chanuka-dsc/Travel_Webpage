@@ -1,0 +1,48 @@
+.container {
+  height: 400px;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.para {
+  color: gray;
+}
+
+.contact h3 {
+  padding-bottom: 15px;
+}
+
+.mail {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+.number {
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-end;
+  margin-left: -50px;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact {
+  width: 50%;
+}
+
+.bottom-container {
+  display: flex;
+}
